@@ -6,7 +6,7 @@ const SensorDataForm = ({ onSubmit }) => {
 		tag: 'DC_out_100ms[144]',
 		startDate: format(new Date(Date.now() - 24 * 60 * 60 * 1000), "yyyy-MM-dd'T'HH:mm"),
 		endDate: format(new Date(), "yyyy-MM-dd'T'HH:mm"),
-		interval: 'h',
+		interval: '1h',
 	})
 
 	const handleInputChange = (e) => {
