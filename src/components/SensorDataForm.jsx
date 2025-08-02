@@ -79,6 +79,7 @@ const SensorDataForm = ({ onSubmit }) => {
 					<label htmlFor='interval'>Интервал:</label>
 					<select id='interval' name='interval' value={formData.interval} onChange={handleInputChange}>
 						<option value='none'>Без интервала</option>
+						<option value='1min'>1 минута</option>
 						<option value='5min'>5 минут</option>
 						<option value='10min'>10 минут</option>
 						<option value='30min'>30 минут</option>
